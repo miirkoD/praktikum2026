@@ -8,7 +8,7 @@ import { Primerak } from '../model/primerak';
 })
 export class PrimerakService {
 
-  private apiUrl = 'http://localhost:8080/api/primerci'; 
+  private apiUrl = '/api/primerci'; 
 
   constructor(private http: HttpClient) {}
   

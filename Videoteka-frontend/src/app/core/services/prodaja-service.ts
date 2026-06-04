@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ProdajaService {
 
-  private apiUrl= 'http://localhost:8080/api/prodaje';
+  private apiUrl= '/api/prodaje';
 
   constructor(private http: HttpClient) {}
   

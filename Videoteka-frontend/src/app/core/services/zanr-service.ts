@@ -8,7 +8,7 @@ import { Zanr } from '../model/zanr';
 })
 export class ZanrService {
 
-  private apiUrl= 'http://localhost:8080/api/zanrovi';
+  private apiUrl= '/api/zanrovi';
 
   constructor(private http: HttpClient) {}
 

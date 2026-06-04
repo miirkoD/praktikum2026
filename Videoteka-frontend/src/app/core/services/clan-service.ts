@@ -8,7 +8,7 @@ import { Clan } from '../model/clan';
 })
 export class ClanService {
 
-  private apiUrl= 'http://localhost:8080/api/clanovi';
+  private apiUrl= '/api/clanovi';
 
   constructor(private http: HttpClient) {}
 

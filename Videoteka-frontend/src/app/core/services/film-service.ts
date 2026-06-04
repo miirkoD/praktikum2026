@@ -8,7 +8,7 @@ import { Observable } from 'rxjs/internal/Observable';
 })
 export class FilmService {
 
-  private apiUrl= 'http://localhost:8080/api/filmovi';
+  private apiUrl= '/api/filmovi';
 
   constructor(private http: HttpClient) {}
 

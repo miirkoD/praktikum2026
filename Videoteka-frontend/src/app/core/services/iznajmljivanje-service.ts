@@ -8,7 +8,7 @@ import { Iznajmljivanje } from '../model/iznajmljivanje';
 })
 export class IznajmljivanjeService {
 
-  private apiUrl= 'http://localhost:8080/api/iznajmljivanja';
+  private apiUrl= '/api/iznajmljivanja';
 
   constructor(private http: HttpClient) {}
 
